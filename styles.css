@@ -90,6 +90,50 @@ blockquote {
     transition: background-color 0.3s;
 }
 
+/* Project Section */
+#projects {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.project {
+    width: calc(33.33% - 20px);
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #888;
+}
+
 .contact-button:hover {
     background-color: #08e7c3;
     color: #000000;
